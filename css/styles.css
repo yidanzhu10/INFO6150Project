@@ -1,0 +1,62 @@
+.banner{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.brand{
+  width: 200px;
+  display: inline-block;
+}
+
+.menu{
+  width: 760px;
+  float: right;
+  text-align: right;
+  display: inline-block;
+}
+
+.nav-link{
+  margin: 0 0 auto;
+  /* display: inline-block; */
+}
+
+.serach-container{
+  display: inline-block;
+  float: right;
+}
+
+.image-section{
+  margin: 0 auto;
+  width: 940px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 940px;
+}
+
+.image-card{
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.plant-img{
+
+}
+
+.plant-name{
+  display: inline-block;
+  text-align: left;
+  text-decoration: none;
+}
+
+.price{
+  display: inline-block;
+  float: : right;
+  text-decoration: none;
+}
