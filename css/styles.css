@@ -74,6 +74,7 @@
 }
 
 .plant-img{
+<<<<<<< HEAD
   width: 300px;
   height: 360px;
 }
@@ -89,6 +90,9 @@
   font-family: 'Rowdies', cursive;
   color: #362706;
   font-size: 20px;
+=======
+  widthL 300px;
+>>>>>>> 2589dab2dd74acf87408e2b769cfe06e15ee17d2
 }
 
 .plant-name{
