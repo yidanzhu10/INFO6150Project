@@ -7,12 +7,14 @@
   /* width: 940px; */
   margin: 0 auto;
   padding-top: 7%;
-  padding-bottom: 20px;
+  margin-bottom: 0;
   padding-left: 10%;
   padding-right: 10%;
-  background-image:url('image/Lifestyle-Home-Office.jpeg');
-  background-size: 100% 215px;
+  /* background-image:url('image/Lifestyle-Home-Office.jpeg');
+  background-size: 100% 215px; */
   /* z-index: 10; */
+  overflow: auto;
+  height: auto;
 }
 
 /* .banner-image{
@@ -33,7 +35,7 @@
 
 .menu{
   height:120px;
-  line-height:120px;
+  line-height:150px;
   /* width: 760px; */
   float: right;
   /* text-align: right; */
@@ -51,22 +53,24 @@
   /* color: #FEF5ED; */
   color: #362706;
   text-decoration: none;
+
 }
 
 .search-container{
   height:120px;
-  line-height:120px;
+  line-height:150px;
   display: inline-block;
   float: right;
   position: relative;
   padding-right: 10px;
+  overflow: hidden;
 }
 
 .nav-bar{
-  height: 60px;
+  height: 80px;
   /* border: 1px solid; */
   background-color: #ACB992;
-  margin:10px 0;
+  /* margin:10px 0; */
 }
 
 .nav-container{
@@ -75,7 +79,7 @@
 }
 
 .nav-item{
-  line-height: 3;
+  line-height: 4;
   padding: 20px 40px;
   font-family: 'Rowdies', cursive;
   font-size: 20px;
@@ -122,9 +126,7 @@
   font-family: 'Rowdies', cursive;
   color: #362706;
   font-size: 20px;
-=======
   width: 300px;
->>>>>>> 2589dab2dd74acf87408e2b769cfe06e15ee17d2
 }
 
 .plant-name{
@@ -187,8 +189,13 @@
   float: left;
 }
 
+.empty-col{
+  clear: left;
+}
+
 .middle-col{
   padding: 0 auto;
+  clear: left;
 }
 
 .right-col{
@@ -211,8 +218,8 @@ h4{
 }
 
 .social-media{
-  /* padding-left: 548px;
-  padding-right: 548px; */
+  width: 150px;
+  margin: 0 auto;
 }
 
 .footer-icon{
@@ -222,6 +229,8 @@ h4{
 }
 
 .copyright{
-  margin: 0 auto;
+  text-align: center;
   color: #FEF5ED;
+  padding-bottom: 16px;
+  margin-bottom: 0;
 }
