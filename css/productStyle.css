@@ -105,7 +105,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: bold;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .product-review .star{
@@ -118,28 +118,34 @@
 /* Quantity */
 
 .quantity{
-  border: 1px #362706;
-  border-radius: 10px;
+  border: 1px solid #362706;
+  border-radius: 20px;
   width: auto;
-  height: 24px;
+  height: 36px;
   margin-top: 10%;
+  display: inline-block;
 }
 
-.plus-btn, .minus-btn{
-  padding: 0;
+.quantity-btn{
   border: none;
   width: 24px;
   height: 24px;
   background-color: #FEF5ED;
   font-weight: 300;
   cursor: pointer;
+  margin-top: 8px;
 }
 
-.minus-btn img {
-  margin-bottom: 3px;
+.minus-btn {
+  margin-right: 6px;
 }
-.add-btn img {
-  margin-top: 2px;
+.plus-btn {
+  margin-left: 6px;
+}
+
+.quantity-btn img{
+  position: relative;
+  width: 100%;
 }
 
 .quantity-input{
@@ -167,7 +173,9 @@
   font-size: 18px;
   padding: 7px 40px;
   border-radius: 20px;
-  margin-top: 7%;
+  margin-top: 10%;
+  display: inline-block;
+  float:right;
 }
 /* .quantity {
   padding-top: 20px;
