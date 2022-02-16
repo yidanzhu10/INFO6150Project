@@ -21,3 +21,8 @@ $(.plus-btn).on('click', function(event) {
 	}
 	$input.val(value);
 })
+
+// toggle detail&care button
+function show(){
+	$('.dropdown-content').show();
+}
