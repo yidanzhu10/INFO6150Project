@@ -10,7 +10,7 @@ $('.heart').on('click', function(event) {
 
 // Product quantity add and minus
 
-$(.plus-btn).on('click', function(event) {
+$('.plus-btn').on('click', function(event) {
 	// event.preventDefault();
 	var $input = $(this).closest('div').find('input');
 	var value = parseInt($input.val());
@@ -21,3 +21,14 @@ $(.plus-btn).on('click', function(event) {
 	}
 	$input.val(value);
 })
+
+$('.plant-img').on('click', function(event) {
+	// var element = $(this).css('color');
+ //  	if(element == 'rgb(255, 0, 0)'){
+ //    	$(event.currentTarget).css('color', 'black');
+ //  	} else{
+ //  		$(event.currentTarget).css('color', 'red');
+ //  	}
+	console.log("aaaaa");
+ 	window.location.href = "bird-of-paradise.html";
+});
