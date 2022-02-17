@@ -16,7 +16,7 @@ $('.plus-btn').on('click', function(event) {
 	var value = parseInt($input.val());
 	value += 1;
 	$input.val(value);
-})；
+})
 
 $('.minus-btn').on('click', function(event) {
 	// event.preventDefault();
@@ -25,7 +25,7 @@ $('.minus-btn').on('click', function(event) {
 	value -= 1;
 	if(value < 0){value = 0;}
 	$input.val(value);
-})；
+})
 
 $('.plant-img').on('click', function(event) {
 	// var element = $(this).css('color');
