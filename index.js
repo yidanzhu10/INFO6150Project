@@ -37,3 +37,7 @@ $('.plant-img').on('click', function(event) {
 	console.log("aaaaa");
  	window.location.href = "bird-of-paradise.html";
 });
+
+$('.add-to-cart').on('click', function(event) {
+	alert("Successfully added to cart!");
+});
