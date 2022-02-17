@@ -20,7 +20,19 @@ $('.plus-btn').on('click', function(event) {
 		value = 0;
 	}
 	$input.val(value);
-})
+})；
+
+$('.minus-btn').on('click', function(event) {
+	// event.preventDefault();
+	var $input = $(this).closest('div').find('input');
+	var value = parseInt($input.val());
+	if(value > 0) {
+		value -= 1;
+	} else {
+		value = 0;
+	}
+	$input.val(value);
+})；
 
 $('.plant-img').on('click', function(event) {
 	// var element = $(this).css('color');
