@@ -283,6 +283,39 @@ input:focus {
   margin: 20px 10px;
 }
 
+.testimonial-content{
+  width: 70%;
+  margin: 0 auto 2%;
+}
+
+.testimonial-title{
+  width: auto;
+  margin: 3% auto;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  color: #3d2c07;
+}
+
+.testimonial-row{
+  margin: 0 auto;
+}
+
+.testimonial-col{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 1%;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.customer-name{
+  font-family: 'MuseoModerno', cursive;
+  font-size: 16px;
+}
+
 .footer-content{
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
