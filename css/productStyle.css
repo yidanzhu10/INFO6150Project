@@ -297,12 +297,15 @@ input:focus {
 
 .footer-column{
   display: inline-block;
-  text-align: left;
+  text-align: center;
   /* width: 33.33%; */
   /* float:left; */
   padding: 1px;
   /* padding-left: 50px;
   padding-right: 100px; */
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 30%;
 }
 
 .left-col{
