@@ -223,6 +223,16 @@
   border-right: none;
   border-top: none;
 }
+
+.detail-category{
+  text-transform: uppercase;
+  color: #798777;
+  float: left;
+}
+
+.detail-content{
+  float: right;
+}
 /* .quantity {
   padding-top: 20px;
   margin-right: 60px;
